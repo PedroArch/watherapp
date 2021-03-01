@@ -1,0 +1,18 @@
+.container{
+  height: 100vh;
+  width: 100vw;
+
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+
+
+  background: url('/backgrounds/raining-night.jpeg') no-repeat center;
+  background-size: cover;
+}
+
+.leftContainer {
+  flex: 1;
+
+  display: flex;
+
+}

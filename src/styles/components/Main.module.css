@@ -1,0 +1,56 @@
+.container {
+  flex: 1;
+
+  margin: 5rem 8rem;
+  
+  display: flex;
+  flex-direction:column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.container > p {
+  font-weight: bold;
+}
+
+.weatherInfo {
+  padding: 1rem 2rem;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+.weatherInfo h1 {
+  font-size: 10rem;
+  font-weight: 400
+  
+}
+
+.weatherInfo img {
+  height: 3rem;
+  width: 3rem;
+}
+
+.cityDate {
+  
+  margin: 0rem 2rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.cityDate strong {
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+.cityDate p {
+  font-size:0.8rem;
+  font-weight:bold;
+}
